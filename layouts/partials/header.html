@@ -1,5 +1,5 @@
 <header class="main-header">
-	<div class="h-card main-header-content">
+	<div class="main-header-content">
 		<h1 class=" blog-title">
 			<a class="u-url p-name" href="{{ "/" | relLangURL }}">
 				{{ if .Site.Params.logoTitle }}
@@ -13,6 +13,7 @@
 	</div>
 
 	<div class="nav">
+	<a class="nav- " role="presentation" href="https://essays.amitgawande.com/slanting-nib/">Newsletter</a>
     {{ $currentPage := . }}
 		{{ range .Site.Menus.main }}
 			{{ if .Page.Params.redirect_url }}
