@@ -427,6 +427,17 @@ a.nav-home, a.nav-blog {
   	margin-top: .702rem;
 }
 
+a.p-category {
+    color: var(--primary-color);
+  	text-transform: lowercase;
+    margin-left: 5px;
+    border-bottom: none;
+}
+
+a.p-category:visited {
+    color: var(--primary-color);
+}
+
 .post-footer {
 	margin-top: 2rem;
 }
