@@ -52,13 +52,21 @@ fieldset {
 }
 legend { border: 0; padding: 0; }
 button, input, select,
-textarea { font-family: inherit; font-size: 100%; margin: 0; }
+textarea { font-family: inherit; font-size: 100%; margin: 0 5px 0 0; padding: 5px; }
 button, input { line-height: normal; }
 button, select { text-transform: none; }
 button, html input[type="button"],
 input[type="reset"], input[type="submit"] {
-   -webkit-appearance: button;
    cursor: pointer;
+   background: var(--primary-color);
+   box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   padding: 5px;
+   border-bottom: 2px solid var(--primary-color);
+   border-top: 2px solid var(--primary-color);
+   border-right-style: none;
+   border-left-style: none;
 }
 button[disabled], html input[disabled] { cursor: default; }
 input[type="checkbox"],

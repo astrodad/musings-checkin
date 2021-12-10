@@ -399,8 +399,8 @@ a.nav-home, a.nav-blog {
 
 .post {
     position: relative;
-    margin: 2rem auto;
-    padding-bottom: 1.2rem;
+    margin: 2rem auto 1rem auto;
+    /*padding-bottom: 1.2rem;*/
     word-break: break-word;
     hyphens: auto;
 }
@@ -414,7 +414,7 @@ a.nav-home, a.nav-blog {
 }
 
 .post-group {
-	margin: 24px 0;
+	margin: 48px 0 24px 0;
 	color: var(--meta-color);
 	border-bottom: 1px solid var(--meta-color);
 	padding: 10px 0;
