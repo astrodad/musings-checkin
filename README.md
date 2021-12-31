@@ -1,6 +1,6 @@
-This is a port of the [Arabica theme for Ghost](https://github.com/slunsford/arabica) to Hugo. You can find a live demo [here](https://arabica.netlify.com).
+This is a personalized port of the [Arabica theme for Ghost](https://github.com/slunsford/arabica) to Hugo and Micro.blog. You can find a live demo [here](https://amitgawande.com).
 
-![Preview](https://raw.githubusercontent.com/nirocfz/arabica/master/images/screenshot.png)
+**PS:** I haven't made it ready to be used as a custom theme. I haven't tested for any custom settings or strings in the template not parameterized yet. So, use it cautiously and with enough testing
 
 ## Quickstart
 
