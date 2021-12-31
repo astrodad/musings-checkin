@@ -1,6 +1,6 @@
 {{ define "main" }}
 	<main class="content" role="main">
-   <h3 class="post-header">Categories</h3>
+   <h3 class="post-group">Categories</h3>
 	{{ $list := ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
 	{{ if gt (len $list) 0 }}
 		<div class="archive-categories">
