@@ -28,18 +28,6 @@
     <!--<footer class="post-footer"></footer> -->
   </article>
 
-  {{ if .Title }}
-    <br/>
-    <p>
-        Want such posts delievered to your inbox? Subscribe below
-
-        <form method="POST" action="https://micro.blog/users/subscribe/7936">
-          <input type="text" name="email" size="30" placeholder="Your email address" /> 
-          <input type="submit" value="Subscribe" />
-        </form>
-    </p>
-  {{ end }}
-
 {{ if .Site.Params.include_conversation }}
 <script type="text/javascript" src="https://micro.blog/conversation.js?url={{ .Permalink }}"></script>
 {{ end }}
