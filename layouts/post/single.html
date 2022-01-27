@@ -20,10 +20,6 @@
           {{ end }}
       	{{ end }}
 		<!-- End : Code for adding categories -->
-		<div class="h-card p-author" style="display: none;">
-            <a rel="author" class= "p-name u-url" href="https://www.amitgawande.com">Amit Gawande</a>
-            <img class="u-photo" src="https://2.gravatar.com/avatar/974dccbf118a9ee9846f4e9f16273ddd" />
-          </div>
       </section>
     </header>
     <section class="post-content e-content">
@@ -31,13 +27,6 @@
     </section>
     <!--<footer class="post-footer"></footer> -->
   </article>
-  <div class="reply-mail">
-    {{ if .Title }}
-        <a href="mailto:reply@amitgawande.com?subject=Reply to {{ .Title }}" style="color: var(--primary-color);">Reply by email</a>
-    {{ else }}
-        <a href="mailto:reply@amitgawande.com?subject=Reply to {{ .Permalink }}" style="color: var(--primary-color);">Reply by email</a>
-    {{ end }}
-  </div>
 
   {{ if .Title }}
     <br/>
