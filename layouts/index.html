@@ -5,10 +5,12 @@
 	<main class="content" role="main">
 		{{ range $paginated.PageGroups }}
 		{{ $thedate := (time .Key) }}
-		<h3 class="post-group"> {{ $thedate.Format "January 2, 2006" }}</h3>
-  		{{ range .Pages.Reverse }}
-    	{{ if eq .Type "post" }}
-      		{{ .Render "article" }}
+		<div class="day-homepage">
+			<h3 class="post-group"> {{ $thedate.Format "January 2, 2006" }}</h3>
+			{{ range .Pages.Reverse }}
+			{{ if eq .Type "post" }}
+				{{ .Render "article" }}
+		</div>
     {{- end }}
   {{ end }}
 {{ end }}

@@ -190,6 +190,8 @@ a.read-more, a.read-more:visited, a.archive-meta, a.post-date {
   	font-family: var(--font-meta);
     color: var(--meta-color);/*#FC7E0F, #DA1F15, #F17F33 */
     text-decoration: none;
+    border-bottom: 1px solid;
+
 }
 
 a.read-more:hover, a.archive-meta:hover, a.post-date:hover {
