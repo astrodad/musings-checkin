@@ -26,8 +26,8 @@
       {{ .Content }}
 
       {{ if .Params.location_latitude }}
-      <img src="https://maps.geoapify.com/v1/staticmap?style=osm-bright&width=300&height=300¢er=lonlat:{{ .Params.location_longitude}},{{ .Params.location_latitude }}&zoom=14&scaleFactor=2&apiKey=f8539f2b94694f30a0f89d91007402ea" width="300" height="300" alt="">
-    {{ end }}
+      <img src="	https://api.mapbox.com/styles/v1/mapbox/streets-v12/static/pin-s+555555({{ .Params.location_longitude}},{{ .Params.location_latitude }})/{{ .Params.location_longitude}},{{ .Params.location_latitude }},11,0/100x100?access_token=pk.eyJ1IjoiamFwbHVtZXkiLCJhIjoiY2xzbnVmMDM0MDgyMTJrb3d1ZmE5NzcyaiJ9.szHKl7q0euanRJIjA02m4w" width="300" height="300" alt="">
+      {{ end }}
     
     </section>
     <!--<footer class="post-footer"></footer> -->
