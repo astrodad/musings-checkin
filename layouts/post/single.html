@@ -24,14 +24,17 @@
     </header>
     <section class="post-content e-content">
       {{ .Content }}
+
+      {{ if .Params.location_latitude }}
+      <img src="https://maps.geoapify.com/v1/staticmap?style=osm-bright&width=300&height=300¢er=lonlat:{{ .Params.location_longitude}},{{ .Params.location_latitude }}&zoom=14&scaleFactor=2&apiKey=f8539f2b94694f30a0f89d91007402ea" width="300" height="300" alt="">
+    {{ end }}
+    
     </section>
     <!--<footer class="post-footer"></footer> -->
   </article>
 
-<div>
-  {{ partial "conversation-link.html" . }}
-  
-</div>
+  <p>{{ partial "conversation-link.html" . }}</p>
+
 {{ if .Site.Params.include_conversation }}
 <script type="text/javascript" src="https://micro.blog/conversation.js?url={{ .Permalink }}"></script>
 {{ end }}
