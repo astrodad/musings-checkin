@@ -7,9 +7,6 @@
 	</header>
 	<section class="p-summary post-excerpt">
     <p>
-
-
-
 <div class="summary-container">
 
   {{ if .Params.location_latitude }}
@@ -18,7 +15,7 @@
           <a href="link/to/your/image.jpg" target="_blank">
 
 
-                <img src="	https://api.mapbox.com/styles/v1/mapbox/streets-v12/static/pin-s+555555({{ .Params.location_longitude}},{{ .Params.location_latitude }})/{{ .Params.location_longitude}},{{ .Params.location_latitude }},11,0/100x100?access_token=pk.eyJ1IjoiamFwbHVtZXkiLCJhIjoiY2xzbnVmMDM0MDgyMTJrb3d1ZmE5NzcyaiJ9.szHKl7q0euanRJIjA02m4w" width="100" height="100" alt="">
+                <img src="https://api.mapbox.com/styles/v1/mapbox/streets-v12/static/pin-s+555555({{ .Params.location_longitude}},{{ .Params.location_latitude }})/{{ .Params.location_longitude}},{{ .Params.location_latitude }},11,0/100x100?access_token=pk.eyJ1IjoiamFwbHVtZXkiLCJhIjoiY2xzbnVmMDM0MDgyMTJrb3d1ZmE5NzcyaiJ9.szHKl7q0euanRJIjA02m4w" width="100" height="100" alt="">
           </a>
       </div>
   {{ end }}
