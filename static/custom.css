@@ -18,6 +18,7 @@
         border-radius: 8px; /* Rounded corners */
         overflow: hidden; /* Ensure the rounded corners are applied */
 		border: 2px solid var(--meta-color); /* Border style */
+        box-sizing: border-box; /* Include border in the width */
     }
 
     .map-thumbnail img {
