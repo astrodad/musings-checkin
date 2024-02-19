@@ -3,11 +3,13 @@
     {{ with .Params.image }}
       <img class="u-featured" src="{{ . }}"></img>
     {{ end }}
-		<h2 class="p-name post-title"><a href="{{ .URL }}">{{  .Params.location_name  }}</a></h2>
+		<h2 class="p-name post-title"><a href="{{ .URL }}">{{ .Params.location_name }}</a></h2>
 	</header>
 	<section class="e-content post-content">
-		<a href="{{ .Permalink }}" class="u-url read-more"><span class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05-0700" }}">{{ .Date.Format "03:04 PM" }} ▸</span></a>
-     <div class="summary-container">
+		<a href="{{ .Permalink }}" class="u-url read-more">
+      <span class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05-0700" }}">{{ .Date.Format "03:04 PM" }} {{ .Params.location_name }} ▸</span></a>
+    
+      <div class="summary-container">
 
   {{ if .Params.location_latitude }}
 
