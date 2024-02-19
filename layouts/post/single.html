@@ -8,7 +8,7 @@
       {{ end }}
 
       <section class="post-meta">
-        <time class="post-date dt-published" datetime="{{ .Date.Format "2006-01-02 15:04:05 -0700" }}">{{ .Date.Format "2006-01-02" }} {{ .Date.Format "03:04 PM" }}</time>
+        <time class="post-date dt-published" datetime="{{ .Date.Format "2006-01-02 15:04:05 -0700" }}">{{ .Date.Format "2006-01-02" }} {{ .Date.Format "03:04 PM" }} - <a href="{{ .Params.location.url }}">{{ .Params.location.name }}</a></time>
  		<a class="u-url" href="{{ .Permalink }}" style="display: none;"></a>
 		<!-- Start : Code for adding categories -->
 		{{ with .Params.categories  }}
