@@ -29,7 +29,7 @@ http://modularscale.com/
 	--secondary-color: #FFB703;
 	--font-color: #8ECAE6;
 	--bg-color: #023047;
-	--heading-color: #FB8500;
+	--heading-color: #FFB703;
     --meta-color: #219EBC;
     --font-family: "Noto Serif", serif,  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --font-meta: "Lato",  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -38,12 +38,12 @@ http://modularscale.com/
   }
   
   [data-theme="dark"] {
-	--primary-color: #E07A5F;
-	--secondary-color: #81B29A;
-	--font-color: #f4f1de;
-	--bg-color: #2C2F3A;
-	--heading-color: #81B29A;
-    --meta-color: #55868C;
+	--primary-color: #8ECAE6;
+	--secondary-color: #FFB703;
+	--font-color: #8ECAE6;
+	--bg-color: #023047;
+	--heading-color: #FFB703;
+    --meta-color: #219EBC;
     --font-family: "Noto Serif", serif,  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --font-meta: "Lato",  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --font-size-standard: 20px;
