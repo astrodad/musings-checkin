@@ -25,12 +25,12 @@ http://modularscale.com/
 
 
 :root {
-	--primary-color: #3d405b;
-	--secondary-color: #E07A5F;
-	--font-color: #2C2F3A;
-	--bg-color: #f4f1de;
-	--heading-color: #2C2F3A;
-    --meta-color: #55868C;
+	--primary-color: #8ECAE6;
+	--secondary-color: #FFB703;
+	--font-color: #8ECAE6;
+	--bg-color: #023047;
+	--heading-color: #FB8500;
+    --meta-color: #219EBC;
     --font-family: "Noto Serif", serif,  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --font-meta: "Lato",  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --font-size-standard: 24px;
